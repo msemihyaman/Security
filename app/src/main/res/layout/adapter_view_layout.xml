@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_shape"
+    android:weightSum="100"
+    android:layout_margin="10dp"
+    android:gravity="center_vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/list_textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="12345678910"
+        android:textSize="16dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/rbtregular"
+        android:textColor="@color/beyaz">
+
+    </TextView>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text=":"
+        android:textSize="16dp"
+        android:fontFamily="@font/rbtblack"
+        android:textColor="@color/beyaz"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/list_textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="Tamamladı"
+        android:textSize="16dp"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/rbtblack"
+        android:textColor="@color/green">
+    </TextView>
+
+</LinearLayout>

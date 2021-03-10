@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".giriscikis"
+    android:background="@color/dark"
+    android:fitsSystemWindows="true"
+    android:id="@+id/drawer_layout_main">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_height="?actionBarSize"
+            android:layout_width="match_parent"
+            android:id="@+id/toolbar_main"
+            android:background="@color/yellow"
+            android:elevation="4dp"
+            >
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/rbtregular"
+                android:gravity="center"
+                android:text="19 Mayıs 2020"
+                android:textColor="@color/beyaz"
+                android:textSize="25dp">
+            </TextView>
+
+            /</androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/hosgeldiniz"
+            android:textColor="@color/beyaz"
+            android:textSize="30dp"
+            android:fontFamily="@font/rbtbold" />
+
+        <TextView
+            android:id="@+id/okutulan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="80dp"
+            android:text="0"
+            android:textColor="@color/dark"
+            android:visibility="invisible"
+            android:textSize="25dp"
+            android:fontFamily="@font/rbtbold" />
+
+        <TextView
+            android:id="@+id/sahabarkodadet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="80dp"
+            android:text="0"
+            android:textColor="@color/dark"
+            android:visibility="invisible"
+            android:textSize="25dp"
+            android:fontFamily="@font/rbtbold" />
+        <TextView
+            android:id="@+id/tamamlanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="80dp"
+            android:text="0"
+            android:visibility="invisible"
+            android:textColor="@color/dark"
+            android:textSize="25dp"
+            android:fontFamily="@font/rbtbold" />
+
+        <TextView
+            android:id="@+id/mevcutdevriyetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="80dp"
+            android:text="1"
+            android:textColor="@color/dark"
+            android:visibility="invisible"
+            android:textSize="25dp"
+            android:fontFamily="@font/rbtbold" />
+
+        <TextView
+            android:id="@+id/tctexti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="Mustafa Semih YAMAN"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:textColor="@color/yellow"
+            android:fontFamily="@font/rbtblack">
+        </TextView>
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110dp"
+            android:src="@mipmap/line2"/>
+
+        <TextView
+            android:id="@+id/ltfn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Lütfen barkod okutun"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="115dp"
+            android:textColor="@color/beyaz"
+            android:fontFamily="@font/rbtlight">
+        </TextView>
+
+
+        <RelativeLayout
+            android:id="@+id/orta"
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignTop="@+id/ltfn"
+            android:layout_marginTop="100dp">
+
+            <TextView
+                android:id="@+id/giris"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Giriş Barkodu"
+                android:textSize="20dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:fontFamily="@font/rbtblack"
+                android:textColor="@color/beyaz"
+                android:background="@drawable/butonshape"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/cikis"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Çıkış Barkodu"
+                android:textSize="20dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:fontFamily="@font/rbtblack"
+                android:textColor="@color/beyaz"
+                android:background="@drawable/butonshape"
+                android:layout_alignTop="@id/giris"
+                android:layout_marginTop="100dp"
+                >
+            </TextView>
+
+            <Button
+                android:id="@+id/scan"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/mainbarcodebutton"
+                android:textSize="19dp"
+                android:background="@drawable/butonshape2"
+                android:textColor="@color/yellow"
+                android:fontFamily="@font/rbtblack"
+                android:layout_centerInParent="true"
+                android:layout_alignTop="@id/cikis"
+                android:layout_marginTop="100dp"
+                >
+            </Button>
+
+            <ImageView
+                android:id="@+id/barkodicon1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/barkodicon"
+                android:layout_alignEnd="@+id/giris"
+                android:layout_alignRight="@+id/giris"
+                android:layout_alignTop="@+id/giris" />
+
+            <ImageView
+                android:id="@+id/barkodicon2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/barkodicon"
+                android:layout_alignEnd="@+id/cikis"
+                android:layout_alignRight="@+id/cikis"
+                android:layout_alignTop="@+id/cikis"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/naw_view_main"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity= "start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/menu"
+
+
+        />
+
+</androidx.drawerlayout.widget.DrawerLayout>

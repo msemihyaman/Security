@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yardimekrani"
+    android:background="@color/dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Yardım"
+        android:textColor="@color/yellow"
+        android:textSize="35dp"
+        android:fontFamily="@font/rbtbold" />
+
+    <ImageView
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:src="@mipmap/line" />
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:text="@string/yardimtexti"
+        android:fontFamily="@font/rbtblack"
+        android:textColor="@color/beyaz"
+        />
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:text="@string/yardimtexti2"
+        android:fontFamily="@font/rbtblack"
+        android:textColor="@color/beyaz"
+        />
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:text="@string/yardimtexti3"
+        android:fontFamily="@font/rbtblack"
+        android:textColor="@color/beyaz"
+        />
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:text="@string/yardimtexti4"
+        android:fontFamily="@font/rbtblack"
+        android:textColor="@color/beyaz"
+        />
+
+    <Button
+        android:id="@+id/mailbtn"
+        android:layout_width="150dp"
+        android:layout_height="47dp"
+        android:text="Mail ile bildir"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/rbtblack"
+        android:textSize="17dp"
+        android:layout_marginTop="510dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/butonshape2"
+        >
+    </Button>
+    <Button
+        android:id="@+id/yardimgeribtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/butonshape"
+        android:text="@string/yardimekranigeri"
+        android:fontFamily="@font/rbtblack"
+        android:textColor="@color/beyaz"
+        android:textSize="20dp"
+        />
+
+
+</RelativeLayout>

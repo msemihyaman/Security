@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.msy.security">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".admin_yillikizin"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".admin_list_giriscikis"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".giriscikis"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".admin_list_aylik_tamamlama"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".admin_kullanici_ara"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kisisel_rapor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kisisel_bilgiler"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".admin_ek_gorev"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".admin_list_sorunlar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".admin_list_sahalar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".admin_main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".admin_list_user"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".yardimekrani_ic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".admin_list_tamamlananlar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sorunbildir"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".admin_sahaekleme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".yardimekrani"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".loginekrani"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".CaptureAct"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "696896010553",
+    "firebase_url": "https://security-9c7bc.firebaseio.com",
+    "project_id": "security-9c7bc",
+    "storage_bucket": "security-9c7bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696896010553:android:e7385fde182c3ccee890e8",
+        "android_client_info": {
+          "package_name": "com.msy.security"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696896010553-0vo4qco6vicp8m9j8c6j45n4bns06j35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtt7QtBbLe1QBS7SSvRapxRaJ3_KFPtuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696896010553-0vo4qco6vicp8m9j8c6j45n4bns06j35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

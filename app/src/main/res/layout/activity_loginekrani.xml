@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark"
+    tools:context=".loginekrani"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/hosgeldiniz"
+        android:textColor="@color/beyaz"
+        android:textSize="35dp"
+        android:fontFamily="@font/rbtbold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="@string/loginaciklama"
+        android:textColor="@color/yellow"
+        android:textSize="16dp"
+        android:fontFamily="@font/rbtlight" />
+
+    <EditText
+        android:id="@+id/tcalani"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/tchint"
+        android:textColorHint="@color/yellow"
+        android:fontFamily="@font/rbtthinitalic"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/textshape"
+        android:ems="10"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="11"
+        android:textColor="@color/yellow"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/isimalani"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/textshape"
+        android:fontFamily="@font/rbtthinitalic"
+        android:hint="@string/isimhint"
+        android:textColorHint="@color/yellow"
+        android:textSize="16dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:importantForAutofill="no"
+        android:inputType="textCapCharacters" />
+
+    <EditText
+        android:id="@+id/telefonalani"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/textshape"
+        android:fontFamily="@font/rbtthinitalic"
+        android:hint="@string/telefonhint"
+        android:textColorHint="@color/yellow"
+        android:textSize="16dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:importantForAutofill="no"
+        android:inputType="phone" />
+
+
+
+    <EditText
+        android:id="@+id/mailalani"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/textshape"
+        android:fontFamily="@font/rbtthinitalic"
+        android:hint="@string/mailhint"
+        android:textColorHint="@color/yellow"
+        android:textSize="16dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/yellow"
+        android:importantForAutofill="no" />
+
+
+    <EditText
+        android:id="@+id/sifrealani"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/textshape"
+        android:fontFamily="@font/rbtthinitalic"
+        android:hint="@string/sifrehint"
+        android:textColorHint="@color/yellow"
+        android:textSize="16dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textColor="@color/yellow"
+        android:importantForAutofill="no" />
+
+
+    <EditText
+        android:id="@+id/sahaalani"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/textshape"
+        android:fontFamily="@font/rbtthinitalic"
+        android:hint="@string/sahahint"
+        android:textColorHint="@color/yellow"
+        android:textSize="16dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:importantForAutofill="no"
+        android:inputType="textCapCharacters"/>
+
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:gravity="center"
+        android:layout_width="140dp"
+        android:layout_height="47dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="510dp"
+        android:background="@drawable/butonshape"
+        android:text="@string/butongiristext"
+        android:fontFamily="@font/rbtblack"
+        android:textColor="@color/beyaz"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/yardimbtn"
+        android:layout_width="90dp"
+        android:layout_height="47dp"
+        android:background="@drawable/butonshape2"
+        android:text="@string/buton2giristext"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/rbtblack"
+        android:textSize="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="565dp"
+        />
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/tcalani"
+        android:layout_alignTop="@+id/tcalani"
+        android:layout_alignStart="@+id/tcalani"
+        android:src="@mipmap/tcicon" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/isimalani"
+        android:layout_alignTop="@+id/isimalani"
+        android:layout_alignStart="@+id/isimalani"
+        android:src="@mipmap/isimicon" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/telefonalani"
+        android:layout_alignTop="@+id/telefonalani"
+        android:layout_alignStart="@+id/telefonalani"
+        android:src="@mipmap/telefonicon"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/mailalani"
+        android:layout_alignTop="@+id/mailalani"
+        android:layout_alignStart="@+id/mailalani"
+        android:src="@mipmap/mailicon" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/sifrealani"
+        android:layout_alignTop="@+id/sifrealani"
+        android:layout_alignStart="@+id/sifrealani"
+        android:src="@mipmap/sifreicon"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/sahaalani"
+        android:layout_alignTop="@+id/sahaalani"
+        android:layout_alignStart="@+id/sahaalani"
+        android:src="@mipmap/sahaicon" />
+    <ImageView
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:src="@mipmap/line" />
+
+</RelativeLayout>

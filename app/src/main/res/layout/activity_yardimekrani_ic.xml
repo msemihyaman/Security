@@ -1,0 +1,133 @@
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yardimekrani_ic"
+    android:background="@color/dark"
+    android:fitsSystemWindows="true"
+    android:id="@+id/drawer_layout_yardimekrani_ic"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_height="?actionBarSize"
+            android:layout_width="match_parent"
+            android:id="@+id/toolbar_yardimekrani_ic"
+            android:background="@color/yellow"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/rbtregular"
+                android:gravity="center"
+                android:text="Yardım"
+                android:textColor="@color/beyaz"
+                android:textSize="25dp">
+            </TextView>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="?actionBarSize"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Sahanızdaki Giriş barkodunu okutunuz. Tom Devriyeniz varsa, Tom Devriye Bölümünden tom noktalarındaki barkodları okutunuz. Son olarak Çıkış barkodunu okuttuğunuzda ''Gün Tamamlandı'' uyarısı  gelecektir. Tamam butonuna basmanız yeterlidir."
+            android:fontFamily="@font/rbtitalic"
+            android:textColor="@color/beyaz"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="Sahanızda bildirmek istediğiniz herhangi bir sorun olursa. Sorun bildir sekmesindeki kutucuğa sorununuzu yazıp 'BİLDİR' butonuna tıklayınız."
+            android:fontFamily="@font/rbtitalic"
+            android:textColor="@color/yellow"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:text="Kişisel Raporlar sekmesinde çalışma verilerinizi görebilirsiniz."
+            android:fontFamily="@font/rbtitalic"
+            android:textColor="@color/beyaz"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:text="Kişisel Bilgiler sekmesinde kişisel bilgilerinizi görebilirsiniz."
+            android:fontFamily="@font/rbtitalic"
+            android:textColor="@color/yellow"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:text="Uygulama içi herhangi bir sorun olduğunda lütfen bildiriniz"
+            android:fontFamily="@font/rbtitalic"
+            android:textColor="@color/beyaz"
+            />
+
+        <Button
+            android:id="@+id/mailbtn"
+            android:layout_width="150dp"
+            android:layout_height="47dp"
+            android:text="Mail ile bildir"
+            android:textColor="@color/yellow"
+            android:fontFamily="@font/rbtblack"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/butonshape2">
+        </Button>
+
+
+    </LinearLayout>
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/naw_view_yardimekrani_ic"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity= "start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/menu"
+
+        />
+
+</androidx.drawerlayout.widget.DrawerLayout>

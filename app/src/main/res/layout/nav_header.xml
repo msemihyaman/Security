@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@color/yellow"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:id="@+id/naw_view">
+
+    <TextView
+        android:id="@+id/nawdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="02 Ara 2020"
+        android:textColor="@color/beyaz"
+        android:textSize="20dp"
+        android:fontFamily="@font/rbtblack"
+        android:layout_marginTop="9dp"
+        >
+
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:paddingTop="6dp"
+        />
+
+    <TextView
+        android:id="@+id/menu_isim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mustafa Semih YAMAN"
+        android:textSize="15dp"
+        android:textColor="@color/beyaz"
+        android:fontFamily="@font/rbtblack"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/menu_tc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12345678901"
+        android:textSize="15dp"
+        android:textColor="@color/beyaz"
+        android:fontFamily="@font/rbtblack"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/menu_saha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="B1"
+        android:textColor="@color/beyaz"
+        android:fontFamily="@font/rbtblack"
+        android:paddingTop="8dp"
+        />
+</LinearLayout>

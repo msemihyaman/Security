@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Mısırlı Güvenlik</string>
+    <string name="email_adresi">Email Adresi:</string>
+    <string name="butongiristext">Giriş</string>
+    <string name="buton2giristext">\Yardım</string>
+
+    <string name="yardimtexti">T.C. Kimlik Numarası alanına; 11 haneli T.C. Kimlik numaranızı giriniz. İsim Soyisim alanına; İsim ve Soyisminizi eksiksiz şekilde giriniz</string>
+    <string name="yardimtexti2">Mail adresi ve şifre alanına; size verilmiş olan mail adresinizi ve şifrenizi giriniz.</string>
+    <string name="yardimtexti3">Saha Adı alanına; saha adınızı giriniz.</string>
+    <string name="yardimtexti4">Giriş yapmakta sorun yaşıyorsanız lütfen bildiriniz.</string>
+
+    <string name="yardimekranigeri">Geri</string>
+    <string name="tchint">T.C. Kimlik Numarası</string>
+    <string name="isimhint">İsim Soyisim</string>
+    <string name="mailhint">Email Adresi</string>
+    <string name="sifrehint">Şifre</string>
+    <string name="sahahint">Saha Adı</string>
+    <string name="telefonhint">Telefon Numarası</string>
+    <string name="hosgeldiniz">Hoşgeldiniz</string>
+    <string name="mainbarcodebutton">Barkod Okut</string>
+    <string name="loginaciklama">Lütfen kullanıcı girişi yapınız</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+</resources>
